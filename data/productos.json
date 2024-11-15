@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bigmac",
+        "descripcion": "Quizas sean las dos Hamburguesas de carne 100% vacuno , con nuestra Salsa Bigmac y queso derretido, el toque de cebolla, el crocante de la Lechuga y pepinillos lo que la hace la hamburguesa mas famosa del mundo. Un sabor Unico.",
+        "precio": 3500,
+        "image": "asset/img/1bigmac.jpg"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Royal with cheese",
+        "descripcion": "Hamburguesa de carne 100% vacuno con Doble Queso cheddar derretido acompañado de cebolla, Ketchup, mostaza y crujiente pepinillo. Un Clasico.",
+        "precio": 3000,
+        "image": "asset/img/2royalwcheese.jpg"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Dos carnes",
+        "descripcion": "Dos Hamburguesas de carne 100% vacuno en Pan Tipo Brioche con salsa BigMac, Cebolla Caramelizada, Tomate, Lechuga, tocino y Queso Cheddar.",
+        "precio": 4500,
+        "image": "asset/img/3doscarnes.jpg"
+    },
+    
+    {
+        "id": 4,
+        "nombre": "Vaso de bebida",
+        "descripcion":"Coca Cola, disfrutala en sus tamaños Grande, Mediano o Pequeño.",
+        "precio": 2000,
+        "image": "asset/img/4vasobebida.jpg" 
+    },
+
+    {
+        "id": 5,
+        "nombre": "Empanadas",
+        "descripcion":"Exquisitas empanadas de queso para acompañar tu dia.",
+        "precio": 2500,
+        "image": "asset/img/5empanadas.jpg" 
+    },
+
+    {
+        "id": 6,
+        "nombre": "Papas fritas",
+        "descripcion":"Las aliadas perfectas para cualquier comida. Disfruta de nuestras mundialmente famosas Papas, crujientes y deliciosas, no vas a parar hasta terminarlas todas.",
+        "precio": 2500,
+        "image": "asset/img/6papasfritas.jpg"
+    },
+
+    {
+        "id": 7,
+        "nombre": "Cono Helado",
+        "descripcion":"Nuestro exquisito y suave helado combinado sobre un crocante cono, simplemente rico.",
+        "precio": 1000,
+        "image": "asset/img/7conohelado.jpg" 
+    },
+
+    {
+        "id": 8,
+        "nombre": "Sundae",
+        "descripcion":"Todo un clasico de McDonald's, suave helado de Vainilla o Chocolate acompañado con salsa de Chocolate, manjar o frutilla a elección.",
+        "precio": 2000,
+        "image": "asset/img/8sundae.jpg"
+    },
+
+    {
+        "id": 9,
+        "nombre": "McFlurry",
+        "descripcion":"Nuestro delicioso helado de vainilla o chocolate, exquisita galleta Oreo molida y la mas rica salsa a elección (chocolate, manjar o frutilla).",
+        "precio": 2500,
+        "image": "asset/img/9mcflurry.jpg" 
+    }
+]
+
+
+
