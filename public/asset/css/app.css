@@ -5,6 +5,9 @@
 }
 
 .product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
