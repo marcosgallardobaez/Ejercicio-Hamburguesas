@@ -1,0 +1,14 @@
+[
+  {
+    "id": 9,
+    "nombre": "McFlurry",
+    "precio": 2500,
+    "cantidad": "2"
+  },
+  {
+    "id": 2,
+    "nombre": "Royal with cheese",
+    "precio": 3000,
+    "cantidad": "1"
+  }
+]

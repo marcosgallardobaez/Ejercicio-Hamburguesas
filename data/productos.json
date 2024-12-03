@@ -4,7 +4,7 @@
         "nombre": "Bigmac",
         "descripcion": "Quizas sean las dos Hamburguesas de carne 100% vacuno , con nuestra Salsa Bigmac y queso derretido, el toque de cebolla, el crocante de la Lechuga y pepinillos lo que la hace la hamburguesa mas famosa del mundo. Un sabor Unico.",
         "precio": 3500,
-        "image": "asset/img/1bigmac.jpg"
+        "image": "/asset/img/1bigmac.jpg"
     },
 
     {
@@ -12,7 +12,7 @@
         "nombre": "Royal with cheese",
         "descripcion": "Hamburguesa de carne 100% vacuno con Doble Queso cheddar derretido acompañado de cebolla, Ketchup, mostaza y crujiente pepinillo. Un Clasico.",
         "precio": 3000,
-        "image": "asset/img/2royalwcheese.jpg"
+        "image": "/asset/img/1bigmac.jpg"
     },
 
     {
@@ -20,7 +20,7 @@
         "nombre": "Dos carnes",
         "descripcion": "Dos Hamburguesas de carne 100% vacuno en Pan Tipo Brioche con salsa BigMac, Cebolla Caramelizada, Tomate, Lechuga, tocino y Queso Cheddar.",
         "precio": 4500,
-        "image": "asset/img/3doscarnes.jpg"
+        "image": "/asset/img/3doscarnes.jpg"
     },
     
     {
