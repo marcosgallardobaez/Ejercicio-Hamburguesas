@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="/asset/css/app.css">
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+
+    {{#if carrito.length}}
+        <ul>
+            {{#each carrito}}
+                <li>
+                    Producto: {{nombre}}<br>
+                    Cantidad: {{cantidad}}<br>
+                    Precio unitario: ${{precio}}<br>
+                    Total: ${{total}}
+                </li>
+            {{/each}}
+        </ul>
+        <h3>Total: ${{totalCarrito}}</h3>
+    {{else}}
+        <p>No hay productos en el carrito.</p>
+    {{/if}}
+
+    <a href="/menu">Seguir comprando</a>
+    <br>
+    <a href="/">Volver al inicio</a>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Hamburguesas</title>
+    <link rel="stylesheet" href="/asset/css/app.css"> <!-- Ruta al archivo CSS -->
+</head>
+<body>
+
+    <h1>Menú de Productos</h1>
+
+    <div class="product-container"  id="productos">
+        {{#each productos}}
+            <div class="product-card">
+                <img src="{{this.image}}" alt="{{this.nombre}}" class="product-image">
+                <h3>{{this.nombre}}</h3>
+                <p>{{this.descripcion}}</p>
+                <p>Precio: ${{this.precio}}</p>
+                <button data-id="{{this.id}}" class="agregar-al-carrito-btn">Agregar al Carrito</button>
+            </div>
+        {{/each}}
+    </div>
+
+    <!-- Modal de selección de cantidad -->
+<div id="modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h2>Selecciona la cantidad</h2>
+        <input type="number" id="cantidad" min="1" value="1" />
+        <br><br>
+        <button id="confirmarCantidad">Confirmar</button>
+        <button id="cancelarModal">Cancelar</button>
+    </div>
+</div>
+
+<!-- Agrega un fondo translúcido para el modal -->
+<div id="modalBackground" class="modal-background" style="display: none;"></div>
+
+
+    <script src="/asset/js/fetchproductos.js"></script> <!-- Ruta al archivo JS -->
+
+</body>
+</html>
